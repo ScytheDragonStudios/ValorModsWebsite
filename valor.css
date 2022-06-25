@@ -101,3 +101,7 @@ h1 span:nth-child(7){
 h1 span:nth-child(8){
     animation-delay:5s;
 }
+footer{
+    background-color:#000000;
+    color:#ff0000;
+}
