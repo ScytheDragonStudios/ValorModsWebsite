@@ -37,12 +37,21 @@ body {
 img {
     height: 200px;
     width: 200px;
+
 }
 
 video{
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+h2 {
+  color: rgb(255, 255, 255)
+}
+
+p {
+  color: aliceblue;
 }
 
 h1 {
@@ -177,4 +186,36 @@ footer{
   }
   .menu__item:hover {
     background-color: #CFD8DC;
+  }
+
+  @media screen and (max-width: 400px) {
+    body {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      height: 100%;
+      background-color: #000;
+    }
+    .vid {
+      width: 0;
+      height: 0;
+    }
+
+    img {
+      position: relative;
+    }
+
+    h1 {
+      top: 35%;
+    }
+
+    footer {
+      position:fixed;
+      bottom: 0;
+    }
+
+    h1 span {
+      letter-spacing: 0;
+      font-size: 40px;
+    }
   }
