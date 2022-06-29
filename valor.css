@@ -35,8 +35,8 @@ body {
 }
 
 img {
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 600px;
 
 }
 
@@ -203,6 +203,8 @@ footer{
 
     img {
       position: relative;
+      height: 200px;
+      width: 250px;
     }
 
     h1 {
@@ -217,5 +219,6 @@ footer{
     h1 span {
       letter-spacing: 0;
       font-size: 40px;
+      text-align: center;
     }
   }
