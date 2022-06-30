@@ -188,7 +188,12 @@ footer{
     background-color: #CFD8DC;
   }
 
-  @media screen and (max-width: 500px) {
+  p {
+    display: block;
+    bottom: 25%;
+  }
+
+  @media screen and (max-width: 400px) {
     body {
       margin: 0;
       padding: 0;
