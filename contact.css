@@ -123,20 +123,6 @@ fieldset {
     color: #888;
 }
 
-.success {
-    color: green;
-    font-weight: 700;
-    padding: 5px;
-    text-align: center;
-}
-
-.failed {
-    color: red;
-    font-weight: 700;
-    padding: 5px;
-    text-align: center;
-}
-
 /*Menu code*/
 #menu__toggle {
     opacity: 0;
